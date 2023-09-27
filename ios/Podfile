@@ -6,6 +6,8 @@ target 'RNHttpServer' do
   use_frameworks!
 
   # Pods for RNHttpServer
-  pod "GCDWebServer", "~> 3.5.3"
-
+  pod "GCDWebServer"
+  pod "GCDWebServer/WebUploader"
+  pod "GCDWebServer/WebDAV"
+  
 end
